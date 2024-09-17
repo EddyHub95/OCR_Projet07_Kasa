@@ -37,9 +37,9 @@ const FicheLogementDisplay = () => {
               <div className="description-info__titletags">
                 <div className="description-info__titletags__title">
                   <span className="titre-logement">{ficheLogement?.title}</span>
-                  <span className="endroit-logement">
+                  <p className="endroit-logement">
                     {ficheLogement?.location}
-                  </span>
+                  </p>
                 </div>
                 {/* Tags */}
                 <div className="description-info__titletags__tags">
